@@ -115,10 +115,10 @@ public class ConfigFileManager {
         if (name.contains("assets://")) {
             name = name.replace("assets://", "");
             name = name.replace("/", "_SSP_");
-        } else if (name.contains("file://")) {
+        } /*else if (name.contains("file://")) {
             name = name.replace("file://", "");
             name = name.replace("/", "._.");
-        }
+        }*/
         return name;
     }
 
